@@ -13,7 +13,7 @@ public class Temperaturas {
         {
             ejercicio.menu();
             
-            System.out.println("¿Desea salir?");
+            System.out.println("¿Desea salir? Pulse s (si) o n (no)");
             resp=teclado.next().charAt(0);
             
         }while(resp=='N'|| resp=='n');
